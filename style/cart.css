@@ -1,0 +1,119 @@
+:root{
+    --primry-color: #B88E2F;
+    --font-color: #333333;
+    --p-color: #666666;
+    --red-color: #E97171;
+    --green-color: #2EC1AC;
+    --input-color: #9F9F9F;
+    --background: #fff;
+    --Background2: #FFF3E3;
+    --product-bg-color: #F4F5F7; 
+    /*--Yellow2: ;
+    --White: ;
+    --line: ;
+    --frist: ;
+    --button: ; */
+}
+
+.ct-contant{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-direction: column;
+}
+.c-contant{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    width: 100%;
+}
+
+.c-contant img{
+    height: 90px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.c-contant .c-contant-itm {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.c-contant .c-contant-itm p{
+    font-size: 16px;
+}
+.c-contant .c-contant-itm i{
+    font-size: 22px;
+    color: var(--primry-color);
+    cursor: pointer;
+}
+
+.c-totle{
+    background-color: var(--Background2);
+    border-radius: 5px;
+    padding: 4rem;
+}
+.c-totle .c-am{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c-totle a{
+    position: relative;
+    padding: .7rem 2rem;
+    border: 1px solid var(--font-color);
+    border-radius: 3px;
+    overflow: hidden; 
+    font-weight: 600;
+    z-index: 1;
+    transition: .5s;
+}
+
+.c-totle a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 100%;
+    border-radius: 3px;
+    background-color: #E97171;
+    z-index: 2;
+    transition: .5s;
+   
+}
+.c-totle a:hover::after{
+    height: 100%;
+}
+.c-totle a span{
+    position: relative;
+    z-index: 3!important;
+}
+
+@media (max-width:1320px){
+   
+}
+@media (max-width:1140px){
+    
+}
+@media (max-width:960px){
+   
+}
+@media (max-width:720px){
+    .c-contant .c-contant-itm {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        justify-content: space-between;
+        text-align: center;
+    }
+}
+@media (max-width:540px){
+    .c-totle{
+        padding: 4rem 2rem;
+    } 
+}

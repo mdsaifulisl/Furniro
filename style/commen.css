@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+:root{
+    --primry-color: #B88E2F;
+    --font-color: #333333;
+    --p-color: #666666;
+    --red-color: #E97171;
+    --green-color: #2EC1AC;
+    --input-color: #9F9F9F;
+    --background: #fff;
+    /* --Background3: ;
+    --Yellow1: ;
+    --Yellow2: ;
+    --White: ;
+    --line: ;
+    --frist: ;
+    --button: ; */
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: var(--font-color);
+    font-size: 16px;
+}
+p{
+    font-size: 18px;
+}
+section{
+    padding: 1.5rem 2rem;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1320px){
+   
+}
+@media (max-width:1140px){
+    
+}
+@media (max-width:960px){
+   
+}
+@media (max-width:720px){
+   
+}
+@media (max-width:540px){
+   
+}

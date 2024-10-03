@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>Furniro</title>
+    <link rel="icon" href="./image/our logo.png">
+
+    <!-- awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <!-- style -->
+    <link rel="stylesheet" href="./style/home.css">
+    <!-- Header -->
+    <link rel="stylesheet" href="./style/header.css">
+</head>
+<body>
+    
+    <!-- header start -->
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="header-log">
+                    <img src="./image/Logo.png" alt="">
+                </div>
+
+                <nav class="nav">
+                    <i class="fa-solid fa-xmark delate"></i>
+                    <ul>
+                        <li><a href="./Index.html">Home</a></li>
+                        <li><a href="./shop/shop.html">Shop</a></li>
+                        <li><a href="./contact/about.html">About</a></li>
+                        <li><a href="../contact/contact.html">Contact</a></li>
+                    </ul>
+                </nav> 
+
+                <div class="icon">
+                    <a><i class="fa-regular fa-user"></i></a>
+                    <a><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a><i class="fa-regular fa-heart"></i></a>
+                    <a class="carts"><i class="fa-solid fa-cart-shopping"></i><span class="cart-length">0</span></a>
+                    <a class="risponsive"><i class="fa-solid fa-bars-staggered"></i></a>
+                </div>
+            </div>
+        </div>
+    </header> 
+
+    <div class="container">
+        <div class="cart-on">
+            <div class="cart px-2">
+
+                <div class="cart-header">
+                    <h4>Shopping Cart</h4>
+                    <a class="cart-cl"><i class="fa-solid fa-xmark"></i></a>
+                </div>
+                <div class="cart-items pt-1 px-2">
+                </div>
+
+                <div id="total-pricea">Total Price: Rs. 0</div>
+
+                <div class="cart-buttom">
+                    <a href="./cart/cart.html">Cart</a>
+                    <a href="./cart/chackout.html">Checkout</a>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+    <!-- header end -->
+    <!-- home-hero start -->
+    <div class="home-hero">
+        <div class="container">
+            <div class="hero">
+                <div class="home-hero-contant  d-flex  justify-content-center flex-column">
+                    <p>New Arrival</p>
+                    <h1 class="heading1">Discover Our New Collection</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                    <div class="mt-3">
+                        <a href="#">BUY Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- home-hero end -->
+
+    <!-- Browse The Range -->
+    <div class="browse py-5" >
+        <div class="browses text-center pb-5">
+            <div class="heading">Browse The Range</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="browse-items gallery-item">
+                        <img src="./image/image 4.png" alt="Dining">
+                        <p class="pt-3 font">Dining</p>
+                    </div>
+                </div>
+
+                <div class="col text-center">
+                    <div class="browse-items gallery-item">
+                        <img src="./image/image 5.png" alt="Living">
+                        <p class="pt-3 font">Living</p>
+                    </div>
+                </div>
+
+                <div class="col text-center">
+                    <div class="browse-items gallery-item">
+                        <img src="./image/image 6.png" alt="Bedroom">
+                        <p class="pt-3 font">Bedroom</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="myModals" class="modal">
+            <span class="close fa-solid fa-xmark"></span>
+            <div class="modal-content">
+                <img id="modalImage" src="" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Browse The Range end -->
+
+    <!-- Our Products start -->
+
+    <div class="our-products pb-5">
+        <div class="our text-center pb-2">
+            <div class="heading">Our Products</div>
+        </div>
+        <div class="container">
+            <div class="our-product-items">
+
+                <div class="product">
+                    <div class="product-img">
+                        <img  src="./image/image 8.png" alt="img">
+                        <span class="off">-30%</span>
+                    </div>
+                    <div class="product-title m-2">
+                        <h5>Syltherine</h5>
+                        <p>Stylish cafe chair</p>
+                        <h6>Rp <span class="price">700.00</span></h6>
+                    </div>
+
+                    <div class="product-cort">
+                        <a class="cart-btn">Add to cart</a>
+                        <div class="product-shere-icon">
+                            <span><i class="fa-solid fa-share-nodes"></i> share</span>
+                            <span><i class="fa-solid fa-not-equal"></i> compare</span>
+                            <span><i class="fa-regular fa-heart"></i> like</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product-img">
+                        <img src="./image/image 9.png" alt="img">
+                        <!-- <span class="new">New</span> -->
+                    </div>
+                    <div class="product-title m-2">
+                        <h5>Leviosa</h5>
+                        <p>Stylish cafe chair</p>
+                        <h6>Rp <span class="price">2500</span></h6>
+                    </div>
+
+                    <div class="product-cort">
+                        <a class="cart-btn">Add to cart</a>
+                        <div class="product-shere-icon">
+                            <span><i class="fa-solid fa-share-nodes"></i> share</span>
+                            <span><i class="fa-solid fa-not-equal"></i> compare</span>
+                            <span><i class="fa-regular fa-heart"></i> like</span>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product">
+                    <div class="product-img">
+                        <img src="./image/image 10.png" alt="img">
+                        <span class="off">-50%</span>
+                    </div>
+                    <div class="product-title m-2">
+                        <h5>Lolito</h5>
+                        <p>Luxury big sofa</p>
+                        <h6>Rp <span class="price">7000</span></h6>
+                    </div>
+
+                    <div class="product-cort">
+                        <a class="cart-btn">Add to cart</a>
+                        <div class="product-shere-icon">
+                            <span><i class="fa-solid fa-share-nodes"></i> share</span>
+                            <span><i class="fa-solid fa-not-equal"></i> compare</span>
+                            <span><i class="fa-regular fa-heart"></i> like</span>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product">
+                    <div class="product-img">
+                        <img src="./image/image 11.png" alt="img">
+                        <span class="new">New</span>
+                    </div>
+                    <div class="product-title m-2">
+                        <h5>Respira</h5>
+                        <p>Outdoor bar table and stool</p>
+                        <h6>Rp <span class="price">500.000</span></h6>
+                    </div>
+
+                    <div class="product-cort">
+                        <a class="cart-btn">Add to cart</a>
+                        <div class="product-shere-icon">
+                            <span><i class="fa-solid fa-share-nodes"></i> share</span>
+                            <span><i class="fa-solid fa-not-equal"></i> compare</span>
+                            <span><i class="fa-regular fa-heart"></i> like</span>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-img">
+                        <img src="./image/image 12.png" alt="img">
+                        <!-- <span class="new">New</span> -->
+                    </div>
+                    <div class="product-title m-2">
+                        <h5>Grifo</h5>
+                        <p>Night lamp</p>
+                        <h6>Rp <span class="price">1500</span></h6>
+                    </div>
+
+                    <div class="product-cort">
+                        <a class="cart-btn">Add to cart</a>
+                        <div class="product-shere-icon">
+                            <span><i class="fa-solid fa-share-nodes"></i> share</span>
+                            <span><i class="fa-solid fa-not-equal"></i> compare</span>
+                            <span><i class="fa-regular fa-heart"></i> like</span>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-img">
+                        <img src="./image/image 13.png" alt="img">
+                        <span class="new">New</span>
+                    </div>
+                    <div class="product-title m-2">
+                        <h5>Muggo</h5>
+                        <p>Small mug</p>
+                        <h6>Rp <span class="price">150000</span></h6>
+                    </div>
+
+                    <div class="product-cort">
+                        <a class="cart-btn">Add to cart</a>
+                        <div class="product-shere-icon">
+                            <span><i class="fa-solid fa-share-nodes"></i> share</span>
+                            <span><i class="fa-solid fa-not-equal"></i> compare</span>
+                            <span><i class="fa-regular fa-heart"></i> like</span>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-img">
+                        <img src="./image/image 14.png" alt="img">
+                        <span class="off">-50%</span>
+                    </div>
+                    <div class="product-title m-2">
+                        <h5>Pingky</h5>
+                        <p>Cute bed set</p>
+                        <h6>Rp <span class="price">7000</span></h6>
+                    </div>
+
+                    <div class="product-cort">
+                        <a class="cart-btn">Add to cart</a>
+                        <div class="product-shere-icon">
+                            <span><i class="fa-solid fa-share-nodes"></i> share</span>
+                            <span><i class="fa-solid fa-not-equal"></i> compare</span>
+                            <span><i class="fa-regular fa-heart"></i> like</span>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-img">
+                        <img src="./image/image 15.png" alt="img">
+                        <span class="new">New</span>
+                    </div>
+                    <div class="product-title m-2">
+                        <h5>Potty</h5>
+                        <p>Minimalist flower pot</p>
+                        <h6>Rp <span class="price">500.000</span></h6>
+                    </div>
+
+                    <div class="product-cort">
+                        <a class="cart-btn">Add to cart</a>
+                        <div class="product-shere-icon">
+                            <span><i class="fa-solid fa-share-nodes"></i> share</span>
+                            <span><i class="fa-solid fa-not-equal"></i> compare</span>
+                            <span><i class="fa-regular fa-heart"></i> like</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="product-show text-center pt-4">
+            <a href="./shop/shop.html">Show More</a>
+        </div>
+    </div>
+    <!-- Our Products end -->
+
+    <!-- rooms inspiration start -->
+
+    <div class="rooms mt-2">
+        <div class="container py-4 px-3">
+            <div class="row row-gap-5">
+                <div class="col-lg-4">
+                    <div class="room-item-text">
+                        <div class="heading">50+ Beautiful rooms inspiration</div>
+                        <p class="pb-4">Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+
+                        <div>
+                            <a href="#">Explore More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="room-img1">
+                        <img src="./image/image 16.png" alt="">
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="room-img-items">
+                        <div class="room-img2 gallery-item">
+                            <img src="./image/image 17.png" alt="">
+                            <img src="./image/image 17.png" alt="">
+                            <img src="./image/image 17.png" alt="">
+                            <img src="./image/image 17.png" alt="">
+                            <img src="./image/image 17.png" alt="">
+                            <img src="./image/image 17.png" alt="">
+                        </div>
+
+                        <div class="button">
+                            <i class="fa-solid fa-chevron-right rigth"></i>
+                            <i class="fa-solid fa-chevron-left left"></i>
+                        </div>
+
+                        <div class="dots">
+                            <span class=" dot active" data-slide="0"></span>
+                            <span class=" dot" data-slide="1"></span>
+                            <span class=" dot" data-slide="2"></span>
+                            <span class=" dot" data-slide="3"></span>
+                            <span class=" dot" data-slide="4"></span>
+                            <span class=" dot" data-slide="5"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- rooms inspiration end -->
+
+    <!-- home gallery start -->
+    <div class="gallerys py-4 text-center">
+        <div class="gallery-tet mb-2">
+            <p class="mb-0">Share your setup with</p>
+            <h2 class="heading">#FuniroFurniture</h2>
+        </div>
+        <div class="container">
+            <div class="gallery gallery-item">
+                <img src="./image/g 1.png" alt="Image 1" class="gallery-img">
+                <img src="./image/g 2.png" alt="Image 2" class="gallery-img">
+                <img src="./image/g 3.png" alt="Image 3" class="gallery-img">
+                <img src="./image/g 4.png" alt="Image 4" class="gallery-img">
+                <img src="./image/g 5.png" alt="Image 5" class="gallery-img">
+                <img src="./image/g 7.png" alt="Image 6" class="gallery-img">
+                <img src="./image/g 8.png" alt="Image 6" class="gallery-img">
+                <img src="./image/g 9.png" alt="Image 6" class="gallery-img">
+                <img src="./image/g 10.png" alt="Image 6" class="gallery-img">
+            </div>
+        </div>
+    </div>
+    <!-- home gallery end -->
+    
+    <!-- footer start -->
+
+    <footer class="py-4">
+        <div class="container">
+            <div class="row row-gap-3e footer-items">
+                <div class="col-lg-3">
+                    <h2 class="pb-4">Funiro.</h2>
+                    <p>400 University Drive Suite 200 Coral Gables,<br> FL 33134 USA</p>
+                </div>
+                <div class="col-lg-3">
+                    <p class="pb-4 mb-0">links</p>
+
+                    <div class="links">
+                        <a href="./Index.html">Home</a>
+                        <a href="./shop/shop.html">Shop</a>
+                        <a href="">About</a>
+                        <a href="">Contact</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <p class="pb-4 mb-0">Help</p>
+
+                    <div class="helplk">
+                        <a href="">Payment Options</a>
+                        <a href="">Returns</a>
+                        <a href="">Privacy Policies</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <p class="pb-4 mb-0">Newsletter</p>
+
+                    <form action="">
+                        <input type="email" id="email" name="email" placeholder="Enter Your Email Address" required>
+                        <input id="submit" type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+
+            <h5 class="py-4">2024 furino. All rights reverved</h5>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <!-- javascript -->
+    <script src="./javaScript/header.js"></script>
+    <script src="./javaScript/home.js"></script>
+</body>
+</html>

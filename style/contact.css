@@ -1,0 +1,70 @@
+:root{
+    --primry-color: #B88E2F;
+    --font-color: #333333;
+    --p-color: #666666;
+    --red-color: #E97171;
+    --green-color: #2EC1AC;
+    --input-color: #9F9F9F;
+    --background: #fff;
+    --Background2: #FFF3E3;
+    --product-bg-color: #F4F5F7; 
+    /*--Yellow2: ;
+    --White: ;
+    --line: ;
+    --frist: ;
+    --button: ; */
+}
+
+.location{
+    display: flex;
+    gap: 20px;
+    
+}
+.location i{
+    font-size: 24px;
+}
+
+.name h6{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.name input{
+    outline: none;
+    border: 1px solid var(--input-color);
+    padding: 1rem;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.name #message {
+    width: 80%;
+    height: 150px;
+    padding: 1rem;
+    border-radius: 10px;
+    outline: none;
+}
+.submit input{
+    padding: .5rem 2.5rem;
+    border-radius: 5px;
+    background-color: var(--primry-color);
+    border: none;
+    color: var(--background);
+    transition: .5s;
+    
+}
+.submit input:hover{
+    background-color: var(--red-color);
+    filter: drop-shadow(1px 1px 5px #000000);
+}
+
+
+@media screen and (max-width:540px) {
+    .name input{ 
+        width: 100%;
+    }
+    
+    .name #message {
+        width: 100%;
+    }
+}

@@ -1,0 +1,150 @@
+.name h6{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.name input{
+    outline: none;
+    border: 1px solid var(--input-color);
+    padding: 1rem;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.name #message {
+    width: 80%;
+    height: 150px;
+    padding: 1rem;
+    border-radius: 10px;
+    outline: none;
+}
+.submit input{
+    padding: .5rem 2.5rem;
+    border-radius: 5px;
+    background-color: var(--primry-color);
+    border: none;
+    color: var(--background);
+    transition: .5s;
+    
+}
+.submit input:hover{
+    background-color: var(--red-color);
+    filter: drop-shadow(1px 1px 5px #000000);
+}
+.billings {
+    border-bottom: 1px solid #000000;
+}
+.billing-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chackout-items .chack{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chackout-items .chack p span{
+    margin-left: 10px;
+    font-weight: 600;
+}
+.totle{
+    color: var(--primry-color);
+}
+.direct p{
+    font-size: 16px;
+}
+.direct p a{
+    font-size: 16px;
+    font-weight: 600;
+}
+.direct .p{
+    font-size: 16px;
+    color: #9F9F9F;
+}
+.gender {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin: 2rem 0;
+    
+}
+.gender span input{
+    margin-right: 10px;
+}
+.gender span input[type="radio"]{
+    -webkit-appearance: none;
+    appearance: none; /* Safari */
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #994545;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
+.gender span input[type="radio"]:checked {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+    filter: drop-shadow(1px 1px 5px #4CAF50);
+}
+.gender span input[type="radio"]:checked::before {
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.chack-btn a {
+    position: relative;
+    padding: 1rem 3rem;
+    border: 1px solid #000000;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 15px;
+    z-index: 2; 
+    color: black;
+    background-color: transparent;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.chack-btn a:after {
+    position: absolute;
+    content: '';
+    width: 0; 
+    height: 100%;
+    background-color: var(--primry-color);
+    left: 0;
+    top: 0;
+    border-radius: 15px;
+    z-index: 1; 
+    transition: all 0.3s ease; 
+}
+
+.chack-btn a:hover:after {
+    width: 100%; 
+}
+
+.chack-btn a span {
+    position: relative;
+    z-index: 3; 
+}
+
+
+
+@media screen and (max-width:540px) {
+    .name input{ 
+        width: 100%;
+    }
+    
+    .name #message {
+        width: 100%;
+    }
+}
